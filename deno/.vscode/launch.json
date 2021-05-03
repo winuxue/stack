@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Mandarine Framework",
+            "type": "pwa-node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "deno",
+            "runtimeArgs": ["run", "--inspect", "-c", "tsconfig.json", "--allow-net", "--allow-read", "--allow-env", "-A", "src/mandarine/app.ts"],
+            "outputCapture": "std",
+            "attachSimplePort": 9229
+        }
+    ]
+}

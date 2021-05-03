@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "dotnet"
+		},
+		{
+			"path": "nodejs"
+		},
+		{
+			"path": "deno"
+		}
+	],
+	"settings": {
+		
+	},
+}
